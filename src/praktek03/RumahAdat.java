@@ -10,5 +10,10 @@ package praktek03;
  * @author ACER
  */
 public class RumahAdat extends Rumah{
+    private String daerah;
+    private String nama;
     
+    void throttle(){
+        System.out.println("Rumah nah.... :D");
+    }
 }
