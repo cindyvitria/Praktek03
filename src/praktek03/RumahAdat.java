@@ -16,4 +16,21 @@ public class RumahAdat extends Rumah{
     void throttle(){
         System.out.println("Rumah nah.... :D");
     }
+
+    public String getDaerah() {
+        return daerah;
+    }
+
+    public void setDaerah(String daerah) {
+        this.daerah = daerah;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    
 }
