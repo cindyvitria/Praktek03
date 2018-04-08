@@ -18,4 +18,29 @@ public class Rumah {
         System.out.println("Warna \t: "+warna+"\n"+"Bahan \t: "+bahan+"\n"
                 +"Jumlah Kamar\t: "+jmlkamar);
     }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public String getBahan() {
+        return bahan;
+    }
+
+    public void setBahan(String bahan) {
+        this.bahan = bahan;
+    }
+
+    public int getJmlkamar() {
+        return jmlkamar;
+    }
+
+    public void setJmlkamar(int jmlkamar) {
+        this.jmlkamar = jmlkamar;
+    }
+    
 }
