@@ -10,5 +10,7 @@ package praktek03;
  * @author ACER
  */
 public class Rumah {
-    
+    String warna;
+    String bahan;
+    int jmlkamar;
 }
