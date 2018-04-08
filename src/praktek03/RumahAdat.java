@@ -14,7 +14,7 @@ public class RumahAdat extends Rumah{
     private String nama;
     
     void throttle(){
-        System.out.println("Rumah nah.... :D");
+        System.out.println("Rumah Banjar.... :D");
     }
 
     public String getDaerah() {
