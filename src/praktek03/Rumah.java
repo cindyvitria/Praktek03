@@ -10,9 +10,9 @@ package praktek03;
  * @author ACER
  */
 public class Rumah {
-    String warna;
-    String bahan;
-    int jmlkamar;
+    private String warna;
+    private String bahan;
+    private int jmlkamar;
     
     void cetakInfo(){
         System.out.println("Warna \t: "+warna+"\n"+"Bahan \t: "+bahan+"\n"
