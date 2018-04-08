@@ -13,4 +13,9 @@ public class Rumah {
     String warna;
     String bahan;
     int jmlkamar;
+    
+    void cetakInfo(){
+        System.out.println("Warna \t: "+warna+"\n"+"Bahan \t: "+bahan+"\n"
+                +"Jumlah Kamar\t: "+jmlkamar);
+    }
 }
