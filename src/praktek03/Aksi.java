@@ -19,5 +19,12 @@ public class Aksi {
         Cendeh.setJmlkamar(2);
         
         Cendeh.cetakInfo();
+        
+        System.out.print("Warnanya \t: ");
+        System.out.println(Cendeh.getWarna());
+        System.out.print("Bahannya \t: ");
+        System.out.println(Cendeh.getBahan());
+        System.out.print("Jumlah Kamarnya \t: ");
+        System.out.println(Cendeh.getJmlkamar());
     }
 }
